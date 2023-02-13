@@ -8,14 +8,35 @@ h1 {
   margin-left: 44%;
 }
 
-.form-container {
-  background-color: black;
+#grid-parent {
+  width:600px;
+  height:600px;
   margin: auto;
-  height:500px;
-  width: 500px;
+  background-color: black;
 }
 
-.calculator {
+.grid-container {
+  margin-top: 10pt;
   display: grid;
-  row-gap: 25pt;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4,100px);
+  grid-template-rows: repeat(4,50px);
+  column-gap: 5pt;
+  row-gap: 5pt;
 }
+
+#result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20pt;
+}
+
+button {
+  border-radius: 5px;
+  cursor: pointer;
+  height:40pt;
+}
+
+

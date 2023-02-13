@@ -7,6 +7,7 @@ let operation = null
 // this function takes in the number you type in the input field and saves it to the "firstNum" variable
 const saveFirstNumber = (num) => {
   firstNum = parseInt(num)  
+  console.log(firstNum)
 }
 
 // this function takes in the number you type in the 2nd input field and saves it to the "secondNum" variable
